@@ -24,7 +24,7 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
-x1 <- sample(c(1,-1), 100, replace=TRUE)
+x1 <- sample(c(1,-1), 10000, replace=TRUE)
 y1 <- cumsum(x1)
 plot(y1, type="l")
 
