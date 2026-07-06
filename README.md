@@ -4,7 +4,6 @@ from RStudio
 hello world
 
 
-#testing
 '''{r}
 x1 <- sample(c(1,-1), 100, replace=TRUE)
 y1 <- cumsum(x1)
